@@ -1,0 +1,21 @@
+{
+  "name": "tdd-todo-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon node server.js",
+    "test": "./node_modules/.bin/nodemon ./node_modules/.bin/jasmine"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jasmine": "^3.1.0",
+    "moment": "^2.22.0",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.17.3",
+    "nyc": "^11.6.0",
+    "sequelize": "^4.37.5",
+    "supertest": "^3.0.0"
+  }
+}
